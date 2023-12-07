@@ -63,7 +63,7 @@ app.component('product-display',
           {
             id: 2235,
             color: 'red',
-            image: './assets/images/Mousqueton_R.avif',
+            image: './assets/images/mousqueton_R.avif',
             quantity: 0
           },
           {
