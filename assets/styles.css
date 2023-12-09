@@ -44,6 +44,10 @@ body {
     background-color: #d8d8d8;
     cursor: not-allowed;
   }
+
+  .disabledButton:hover {
+    background-color: #d8d8d8;
+  }
   
   h1 {
     font-size: 50px;
@@ -179,3 +183,29 @@ body {
       width: 90%;
     }
   }
+
+
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+
+ .product-image img {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 450px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .product-image img:hover {
+    transform: scale(1.1);
+  }
+
+  /*.button:hover {
+    background-color: #27ae60;
+  } */
